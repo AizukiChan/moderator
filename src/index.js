@@ -19,7 +19,7 @@ client.on('ready', (c) => {
     type: ActivityType.Custom
   });
 
-  client.user.setStatus('idle', 'dnd', 'online');
+  client.user.setStatus('dnd');
 });
 
 eventHandler(client);
